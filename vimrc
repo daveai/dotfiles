@@ -1,3 +1,6 @@
+execute pathogen#infect()
+filetype plugin indent on
+
 " Comments in Vimscript start with a `"`.
 
 " If you open this file in Vim, it'll be syntax highlighted for you.
@@ -78,3 +81,12 @@ inoremap <Left>  <ESC>:echoe "Use h"<CR>
 inoremap <Right> <ESC>:echoe "Use l"<CR>
 inoremap <Up>    <ESC>:echoe "Use k"<CR>
 inoremap <Down>  <ESC>:echoe "Use j"<CR>
+
+" Set splits to open right and below
+set splitbelow splitright
+
+" Enable autocompletition
+set wildmode=longest,list,full
+
+" Set tomorrow theme
+colo Tomorrow-Night-Eighties
