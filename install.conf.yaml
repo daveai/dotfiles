@@ -13,7 +13,6 @@
     ~/.alacritty.yml: alacritty.yml
 
 - create:
-    - ~/downloads
     - ~/.vim/undo-history
 
 - shell:
