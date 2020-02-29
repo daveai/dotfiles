@@ -7,6 +7,7 @@
 - link:
     ~/.dotfiles: ''
     ~/.tmux.conf: tmux.conf
+    ~/.tmux.conf.local: tmux.conf.local
     ~/.vim: vim
     ~/.vimrc: vimrc
     ~/.zshrc: zshrc
@@ -14,6 +15,7 @@
 
 - create:
     - ~/.vim/undo-history
+
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
