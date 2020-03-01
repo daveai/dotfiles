@@ -110,3 +110,6 @@ source $ZSH/oh-my-zsh.sh
 
 # Aliases
 alias sudo='sudo '
+alias l='ls -laH'
+alias pip='python3 -m pip'
+alias gn8='sudo shutdown -P now'
